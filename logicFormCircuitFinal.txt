@@ -1,0 +1,2 @@
+var = ['A', 'B', 'C']
+{'p0 ': '( A  and B ) ', 'p1 ': '( ( A  and B )  and B ) ', 'pF2': ' ( ( ( A  and B )  and B ) )'}

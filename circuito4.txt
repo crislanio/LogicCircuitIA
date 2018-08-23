@@ -1,0 +1,6 @@
+var = [ A, B, C ] 
+Fin = []
+Fout = []
+p0 = ( A  and B ) 
+p1 = ( p0  and B ) 
+pF2 = ( p1 )
