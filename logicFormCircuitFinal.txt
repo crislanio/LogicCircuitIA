@@ -1,2 +1,2 @@
 var = ['A', 'B', 'C']
-{'p0 ': '( A  and B ) ', 'p1 ': '( ( A  and B )  and B ) ', 'pF2': ' ( ( ( A  and B )  and B ) )'}
+{'p0 ': '( A  and B ) \n', 'p1 ': '0', 'pF2': ' ( 0 )'}
