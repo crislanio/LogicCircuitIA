@@ -1,0 +1,10 @@
+var = [ A, B, C ] 
+Fin = [ p0 = [ A = 0 ] , p1 = [ B = 0 ] , pF2 = [ ] ]
+Fout = [ p1 = 0 ]
+p0 = ( A ^  B )  
+p1 = ( ( p0 ^ C ) )
+p2 = ( C and p0 )
+p3 = ( B and A )
+p4 = ( p2 or p3 )
+pF1 = ( p4 )
+pF2 = ( p1 )

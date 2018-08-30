@@ -1,6 +1,5 @@
-var = [ A, B, C ] 
-Fin = [ p0 = [ A = 0 ] , p1 = [ B = 0 ] , pF2 = [ ] ]
+var = [ A, B] 
 Fout = [ p1 = 0 ]
 p0 = ( A  and B ) 
 p1 = ( p0  and B ) 
-pF2 = ( p1 )
+pF2 = ( p1 or p0 )

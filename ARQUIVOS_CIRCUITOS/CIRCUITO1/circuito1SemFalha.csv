@@ -1,0 +1,2 @@
+p0 ,p1 ,p2 ,p3 ,p4 ,pF1,pF2
+( A ^  B )  ,( ( ( A ^  B )  ^ C ) ),( C and ( A ^  B )  ),( B and A ),( ( C and p0 )or ( B and A )), ( ( p2 or p3 )), ( ( ( p0 ^ C ) ))

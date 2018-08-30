@@ -1,9 +1,0 @@
-var = [ A, B, C ] 
-p0 = A  and B 
-p1 = ( ( ( p0 and ( not C ) ) or ( ( not p0 ) and C)) )
-p2 = ( p0 and C )
-p3 = ( A and B )
-p4 = ( p2 or p3 )
-pF1 = ( p4 )
-pF2 = ( p1 )
-	
