@@ -1,0 +1,9 @@
+var = [ A, B, C, D, E, F]
+p0 = ( not ( ( A or  ( not ( B and  C ) ) or ( B and  C ) )  or  ( ( not ( B and  C ) ) and  ( ( B and  C ) or  ( ( D or E ) ) ) ) ) ) 
+p1 = ( not ( ( not ( ( not ( A and  C ) ) and  ( not ( B and  ( not ( C and  D ) ) ) ) ) ) and  ( not ( ( not ( B and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) ) )
+p2 = ( not ( ( not ( ( not ( A and  C ) ) and  ( not ( B and  ( not ( C and  D ) ) ) ) ) ) and  D ) )
+p3 = ( not ( ( ( not ( B and  C ) ) and  ( ( B and  C ) or  ( ( D or E ) ) ) ) and  ( not ( C and  D ) ) ) )
+p4 = ( not ( ( not ( ( not ( B and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) and ( ( ( C and ( A ^  B ) ) or ( B and A ) ) ) ) )
+pF1 = ( ( ( ( A ^  B ) ^ C ) ) )
+pF2 = ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+pF3 = ( not ( ( not ( ( ( not ( B and  C ) ) and  ( ( B and  C ) or  ( ( D or E ) ) ) ) and  ( not ( C and  D ) ) ) ) and ( not ( ( not ( ( not ( B and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) and ( ( ( C and ( A ^  B ) ) or ( B and A ) ) ) ) ) ) )
