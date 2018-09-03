@@ -11901,9 +11901,44 @@ a.anchor-link {
 <div class="reveal">
 <div class="slides">
 <section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Sum&#225;rio">Sum&#225;rio<a class="anchor-link" href="#Sum&#225;rio">&#182;</a></h1><h6 id="----">- <a id="#8">  </a><a class="anchor-link" href="#----">&#182;</a></h6><ul>
+<li><a href='#1'>1. Introdução</a>  </li>
+<li><a href='#2'>2. Aplicando cada fórmula nas portas</a>  </li>
+<li><a href='#3'>3. As classes  TruthsGenerates, são responsáveis por gerar todas as combinações binárias da tabela verdade.</a>  </li>
+<li><p><a href='#4'>4. Essa é a etapa de gerar a tabela verdade do Circuito com falha ou sem falha </a></p>
+<ul>
+<li><a href='#4.1'>4.1 Leitura dos csvs gerados. Com falha, sem falha e os csvs das saídas dos circuitos. </a>  </li>
+</ul>
+</li>
+<li><p><a href='#5'>5 Comparando as falhas com o circuito de erro e observando quais falhas são iguais as saidas do circuito</a></p>
+<ul>
+<li><a href='#5.1'>5.1 Resultado do diagnóstico</a>  </li>
+</ul>
+</li>
+<li><p><a href='#6'>6. Abaixo salvamos as saídas do circuito, fazemos um diagnóstico</a></p>
+</li>
+<li><p><a href='#7'> 7. Tempo de Execução do Diagnostico</a></p>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="--1.-Introdu&#231;&#227;o">- <a id="#1">1. Introdu&#231;&#227;o</a><a class="anchor-link" href="#--1.-Introdu&#231;&#227;o">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[70]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">prettytable</span> <span class="k">import</span> <span class="n">PrettyTable</span><span class="p">,</span> <span class="n">from_csv</span>
@@ -11979,7 +12014,9 @@ indica que p1 está preso na saída da porta por 0.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.-Lendo-o-circuito-de-teste">1. Lendo o circuito de teste<a class="anchor-link" href="#1.-Lendo-o-circuito-de-teste">&#182;</a></h2>
+<h2 id="Lendo-o-circuito-de-teste">Lendo o circuito de teste<a class="anchor-link" href="#Lendo-o-circuito-de-teste">&#182;</a></h2><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6><p>gerarCSV =  1 # 1 Roda o programa com Falha</p>
+<p>gerarCSV = 0 # 0 Roda o programa sem Falha</p>
+
 </div>
 </div>
 </div>
@@ -12478,7 +12515,7 @@ indica que p1 está preso na saída da porta por 0.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Aplicando-cada-f&#243;rmula-nas-portas">Aplicando cada f&#243;rmula nas portas<a class="anchor-link" href="#Aplicando-cada-f&#243;rmula-nas-portas">&#182;</a></h2><p>Essa é uma etapa importante do problema, pois aplicamos as substituições necessárias das falhas, ou seja, propagamos as falhas pelas portas e aplicamos as falhas no circuito se o mesmo tiver falhas.</p>
+<h1 id="--2.-Aplicando-cada-f&#243;rmula-nas-portas">- <a id="#2">2. Aplicando cada f&#243;rmula nas portas</a><a class="anchor-link" href="#--2.-Aplicando-cada-f&#243;rmula-nas-portas">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6><p>Essa é uma etapa importante do problema, pois aplicamos as substituições necessárias das falhas, ou seja, propagamos as falhas pelas portas e aplicamos as falhas no circuito se o mesmo tiver falhas.</p>
 
 </div>
 </div>
@@ -12512,7 +12549,7 @@ indica que p1 está preso na saída da porta por 0.</p>
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listCircuito</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">dfCircuito</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>  <span class="c1"># Circuito Lógico</span>
 
-<span class="k">def</span> <span class="nf">aplicaClausulaComFalhas</span><span class="p">():</span>
+    <span class="k">def</span> <span class="err">():</span>
     <span class="c1"># Substituindo e gerando o circuito. Circuito de Teste</span>
     <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">dfCircuito</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
         <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">listCircuito</span><span class="p">)):</span>
@@ -12705,7 +12742,7 @@ indica que p1 está preso na saída da porta por 0.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="As-classes--TruthsGenerates,-s&#227;o-respons&#225;veis-por-gerar-todas-as-combina&#231;&#245;es-bin&#225;rias-da-tabela-verdade.">As classes  TruthsGenerates, s&#227;o respons&#225;veis por gerar todas as combina&#231;&#245;es bin&#225;rias da tabela verdade.<a class="anchor-link" href="#As-classes--TruthsGenerates,-s&#227;o-respons&#225;veis-por-gerar-todas-as-combina&#231;&#245;es-bin&#225;rias-da-tabela-verdade.">&#182;</a></h2><h2 id="E-gerar-o-arquivo-de-texto,-csv-da-tabela-verdade.">E gerar o arquivo de texto, csv da tabela verdade.<a class="anchor-link" href="#E-gerar-o-arquivo-de-texto,-csv-da-tabela-verdade.">&#182;</a></h2>
+<h1 id="--3.-As-classes--TruthsGenerates,-s&#227;o-respons&#225;veis-por-gerar-todas-as-combina&#231;&#245;es-bin&#225;rias-da-tabela-verdade.">- <a href="#3">3. As classes  TruthsGenerates, s&#227;o respons&#225;veis por gerar todas as combina&#231;&#245;es bin&#225;rias da tabela verdade.</a><a class="anchor-link" href="#--3.-As-classes--TruthsGenerates,-s&#227;o-respons&#225;veis-por-gerar-todas-as-combina&#231;&#245;es-bin&#225;rias-da-tabela-verdade.">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6><h2 id="E-gerar-o-arquivo-de-texto,-csv-da-tabela-verdade.">E gerar o arquivo de texto, csv da tabela verdade.<a class="anchor-link" href="#E-gerar-o-arquivo-de-texto,-csv-da-tabela-verdade.">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -13529,7 +13566,7 @@ Name: pF2, dtype: object
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Essa-&#233;-a-etapa-de-gerar-a-tabela-verdade-do-Circuito-com-falha-ou-sem-falha">Essa &#233; a etapa de gerar a tabela verdade do Circuito com falha ou sem falha<a class="anchor-link" href="#Essa-&#233;-a-etapa-de-gerar-a-tabela-verdade-do-Circuito-com-falha-ou-sem-falha">&#182;</a></h1><p>Nessa etapa geramos as tabelas verdade dos circuitos com falha e sem falha, bem como as tabelas verdade das combinações 1 a 1, 2 a 2 e 3 a 3 para que possamos em uma outra etapa posterior comparar com a saída do circuito com falha.</p>
+<h1 id="--4.-Essa-&#233;-a-etapa-de-gerar-a-tabela-verdade-do-Circuito-com-falha-ou-sem-falha-">- <a id="#4">4. Essa &#233; a etapa de gerar a tabela verdade do Circuito com falha ou sem falha </a><a class="anchor-link" href="#--4.-Essa-&#233;-a-etapa-de-gerar-a-tabela-verdade-do-Circuito-com-falha-ou-sem-falha-">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6><p>Nessa etapa geramos as tabelas verdade dos circuitos com falha e sem falha, bem como as tabelas verdade das combinações 1 a 1, 2 a 2 e 3 a 3 para que possamos em uma outra etapa posterior comparar com a saída do circuito com falha.</p>
 
 </div>
 </div>
@@ -13878,7 +13915,7 @@ Name: pF2, dtype: object
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Leitura-dos-csvs-gerados.-Com-falha,-sem-falha-e-os-csvs-das-sa&#237;das-dos-circuitos.">Leitura dos csvs gerados. Com falha, sem falha e os csvs das sa&#237;das dos circuitos.<a class="anchor-link" href="#Leitura-dos-csvs-gerados.-Com-falha,-sem-falha-e-os-csvs-das-sa&#237;das-dos-circuitos.">&#182;</a></h1><h1 id="Abaixo-&#233;-lido-os-csv-com-falha-e-sem-falha'">Abaixo &#233; lido os csv com falha e sem falha'<a class="anchor-link" href="#Abaixo-&#233;-lido-os-csv-com-falha-e-sem-falha'">&#182;</a></h1>
+<h1 id="--4.1-Leitura-dos-csvs-gerados.-Com-falha,-sem-falha-e-os-csvs-das-sa&#237;das-dos-circuitos.-">- <a id="#4.1">4.1 Leitura dos csvs gerados. Com falha, sem falha e os csvs das sa&#237;das dos circuitos. </a><a class="anchor-link" href="#--4.1-Leitura-dos-csvs-gerados.-Com-falha,-sem-falha-e-os-csvs-das-sa&#237;das-dos-circuitos.-">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6><h1 id="Abaixo-&#233;-lido-os-csv-com-falha-e-sem-falha'">Abaixo &#233; lido os csv com falha e sem falha'<a class="anchor-link" href="#Abaixo-&#233;-lido-os-csv-com-falha-e-sem-falha'">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -15817,7 +15854,7 @@ Name: pF2, dtype: object
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Comparando-as-falhas-com-o-circuito-de-erro-e-observando-quais-falhas-s&#227;o-iguais-as-saidas-do-circuito">Comparando as falhas com o circuito de erro e observando quais falhas s&#227;o iguais as saidas do circuito<a class="anchor-link" href="#Comparando-as-falhas-com-o-circuito-de-erro-e-observando-quais-falhas-s&#227;o-iguais-as-saidas-do-circuito">&#182;</a></h2>
+<h1 id="--5-Comparando-as-falhas-com-o-circuito-de-erro-e-observando-quais-falhas-s&#227;o-iguais-as-saidas-do-circuito">- <a id="#5">5 Comparando as falhas com o circuito de erro e observando quais falhas s&#227;o iguais as saidas do circuito</a><a class="anchor-link" href="#--5-Comparando-as-falhas-com-o-circuito-de-erro-e-observando-quais-falhas-s&#227;o-iguais-as-saidas-do-circuito">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6>
 </div>
 </div>
 </div>
@@ -15967,6 +16004,14 @@ Name: pF2, dtype: object
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="--5.1-Resultado-do-diagn&#243;stico">- <a id="#5.1">5.1 Resultado do diagn&#243;stico</a><a class="anchor-link" href="#--5.1-Resultado-do-diagn&#243;stico">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -16272,7 +16317,7 @@ Name: pF2, dtype: object
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Abaixo-salvamos-as-sa&#237;das-do-circuito,-fazemos-um-diagn&#243;stico">Abaixo salvamos as sa&#237;das do circuito, fazemos um diagn&#243;stico<a class="anchor-link" href="#Abaixo-salvamos-as-sa&#237;das-do-circuito,-fazemos-um-diagn&#243;stico">&#182;</a></h2>
+<h1 id="--6.-Abaixo-salvamos-as-sa&#237;das-do-circuito,-fazemos-um-diagn&#243;stico">- <a id="#6">6. Abaixo salvamos as sa&#237;das do circuito, fazemos um diagn&#243;stico</a><a class="anchor-link" href="#--6.-Abaixo-salvamos-as-sa&#237;das-do-circuito,-fazemos-um-diagn&#243;stico">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6>
 </div>
 </div>
 </div>
@@ -16708,7 +16753,7 @@ Name: pF2, dtype: object
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Tempo-de-Execu&#231;&#227;o-do-Diagnostico">Tempo de Execu&#231;&#227;o do Diagnostico<a class="anchor-link" href="#Tempo-de-Execu&#231;&#227;o-do-Diagnostico">&#182;</a></h1>
+<h1 id="---7.-Tempo-de-Execu&#231;&#227;o-do-Diagnostico">- <a id="#7"> 7. Tempo de Execu&#231;&#227;o do Diagnostico</a><a class="anchor-link" href="#---7.-Tempo-de-Execu&#231;&#227;o-do-Diagnostico">&#182;</a></h1><h6 id="---voltar-ao-sum&#225;rio-">- <a href="#8"> voltar ao sum&#225;rio </a><a class="anchor-link" href="#---voltar-ao-sum&#225;rio-">&#182;</a></h6>
 </div>
 </div>
 </div>
