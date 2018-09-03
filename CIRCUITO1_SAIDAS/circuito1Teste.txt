@@ -1,0 +1,9 @@
+var = [ A, B, C ] 
+Fout = [ p4 = 0 ]
+p0 = ( A ^  B )  
+p1 = ( ( ( A ^  B ) ^ C ) )
+p2 = ( C and ( A ^  B ) )
+p3 = ( B and A )
+p4 = ( ( C and ( A ^  B ) ) or ( B and A ) )
+pF1 = ( ( ( C and ( A ^  B ) ) or ( B and A ) ) )
+pF2 = ( ( ( ( A ^  B ) ^ C ) ) )

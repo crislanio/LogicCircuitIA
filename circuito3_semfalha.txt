@@ -1,0 +1,9 @@
+var = [ A, B, C, D, E] 
+p0 = ( not ( B and  C ) ) 
+p1 = ( B and  C )
+p2 = ( ( D or E ) )
+p3 = ( A or  ( not ( B and  C ) ) or ( B and  C ) )
+p4 = ( ( B and  C ) or  ( ( D or E ) ) )
+p5 = ( ( not ( B and  C ) ) and  ( ( B and  C ) or  ( ( D or E ) ) ) )
+pF1 = ( A or  ( not ( B and  C ) ) or ( B and  C ) ) 
+pF2 = ( ( not ( B and  C ) ) and  ( ( B and  C ) or  ( ( D or E ) ) ) )

@@ -1,0 +1,2 @@
+var = ['A', 'B', 'C']
+{'p0 ': '( A ^  0 )  \n', 'p1 ': '( ( ( A ^  0 ) ^ C ) )\n', 'p2 ': '( C and ( A ^  B ) )\n', 'p3 ': '( B and A )\n', 'p4 ': '( ( C and ( A ^  B ) ) or ( B and A ) )\n', 'pF1': ' ( ( ( C and ( A ^  B ) ) or ( B and A ) ) )\n', 'pF2': ' ( ( ( ( A ^  B ) ^ C ) ) )'}

@@ -1,0 +1,2 @@
+var = ['A', 'B', 'C', 'D', 'E']
+{'p1 ': '( B and  C )\n', 'p2 ': '( ( D or E ) )\n', 'p3 ': '( 0 or  ( not ( B and  C ) ) or ( B and  C ) )\n', 'p4 ': '( ( B and  C ) or  ( ( D or E ) ) )\n', 'p5 ': '( ( not ( 1 and  C ) ) and  ( ( B and  C ) or  ( ( D or E ) ) ) )\n', 'pF1': ' ( A or  ( not ( B and  C ) ) or ( B and  C ) ) \n', 'pF2': ' ( ( not ( B and  C ) ) and  ( ( B and  C ) or  ( ( D or E ) ) ) )'}

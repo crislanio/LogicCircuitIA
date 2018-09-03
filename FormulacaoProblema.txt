@@ -1,0 +1,12 @@
+
+• Estados: São as cláusulas do circuito, as portas com as entradas com falhas ou sem falha.
+
+• Estado inicial: A Cláusula inicial representada pela porta inicial do circuito P0.
+
+• Ações: A formulação mais simples 	define as ações como expandir as portas iniciais P0, P1..Pn respectivamente.
+
+• Modelo de transição: Expandir P0 significa colocar a cláusula P0 em qualquer aparição de P0 no circuito, se faz isso para cada porta respectivamente. Depois resolver P0, P1,...Pn, PSaida1, PSaida2,... pSaidaN, ou seja, fazer a tabela verdade para cada porta respectivamente. Observação primeiro é gerado o circuito sem falha, logo a seguir é expandido o circuito com falha.
+
+• Teste de objetivo: A tabela verdade gerada é igual a tabela verdade do circuito com falha informada pelo usuário.
+
+• Custo de caminho: Cada passo custa 1 e, assim, o custo do caminho é o número de passos do caminho.
