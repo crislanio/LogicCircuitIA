@@ -219,4 +219,475 @@ Diagnostico para o circuito
 
 Index([], dtype='object')
 
-Tempo de Execução do programa: 3.208246946334839
+Tempo de Execução do programa: 3.208246946334839Diagnostico para o circuito 
+ ( ( ( ( A ^  B ) ^ C ) ) )
+
+Index(['( ( ( ( 0 ^ B ) ^ C ) ) )', '( ( ( ( 1 ^ B ) ^ C ) ) )',
+       '( ( ( ( A ^ 0 ) ^ C ) ) )', '( ( ( ( A ^ 1 ) ^ C ) ) )'],
+      dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( A ^  B ) ) or ( B and A ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 2.608043670654297Diagnostico para o circuito 
+ ( ( ( ( A ^  B ) ^ C ) ) )
+
+Index(['( ( ( ( 0 ^ B ) ^ C ) ) )', '( ( ( ( 1 ^ B ) ^ C ) ) )',
+       '( ( ( ( A ^ 0 ) ^ C ) ) )', '( ( ( ( A ^ 1 ) ^ C ) ) )'],
+      dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( A ^  B ) ) or ( B and A ) ) )
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 3.041673421859741Diagnostico para o circuito 
+ ( ( ( ( 0 ^  B ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( 0 ^  B ) ) or ( B and 0 ) ) )
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.6786017417907715Diagnostico para o circuito 
+ ( ( ( ( A ^  0 ) ^ C ) ) )
+
+Index(['( ( ( ( 0 ^ 0 ) ^ C ) ) )', '( ( ( ( 1 ^ 0 ) ^ C ) ) )',
+       '( ( ( ( A ^ 0 ) ^ 0 ) ) )', '( ( ( ( A ^ 0 ) ^ 1 ) ) )'],
+      dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( A ^  0 ) ) or ( 0 and A ) ) )
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.3641726970672607Diagnostico para o circuito 
+ ( ( ( ( A ^  B ) ^ 0 ) ) )
+
+Index(['( ( ( ( 0 ^ B ) ^ 0 ) ) )', '( ( ( ( 1 ^ B ) ^ 0 ) ) )',
+       '( ( ( ( A ^ 0 ) ^ 0 ) ) )', '( ( ( ( A ^ 1 ) ^ 0 ) ) )'],
+      dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( 0 and ( A ^  B ) ) or ( B and A ) ) )
+
+
+
+
+Index(['( ( ( 0 and ( 0 ^ B ) ) or ( B and 0 ) ) )',
+       '( ( ( 0 and ( 1 ^ B ) ) or ( B and 1 ) ) )',
+       '( ( ( 0 and ( A ^ 0 ) ) or ( 0 and A ) ) )',
+       '( ( ( 0 and ( A ^ 1 ) ) or ( 1 and A ) ) )'],
+      dtype='object')
+
+Tempo de Execução do programa: 1.7128465175628662Diagnostico para o circuito 
+ ( not ( ( not ( B and  ( not ( 0 and  D ) ) ) ) and  ( not ( D and E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( 0 and  D ) ) or  ( not ( ( not ( 0 and  D ) ) ) ) ) ) 
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 10.237998247146606Diagnostico para o circuito 
+ ( not ( ( not ( 1 and  ( not ( C and  D ) ) ) ) and  ( not ( D and E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 10.454189538955688Diagnostico para o circuito 
+ ( ( ( ( A ^  0 ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( A ^  0 ) ) or ( 0 and A ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.4451136589050293Diagnostico para o circuito 
+ ( ( ( ( 0 ^  B ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( 0 ^  B ) ) or ( B and 0 ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.9132359027862549Diagnostico para o circuito 
+ ( ( ( ( A ^  B ) ^ 0 ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( 0 and ( A ^  B ) ) or ( B and A ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.9643137454986572Diagnostico para o circuito 
+ ( ( ( ( 1 ^  B ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( 1 ^  B ) ) or ( B and 1 ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 2.309959888458252Diagnostico para o circuito 
+ ( ( ( ( A ^  1 ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( A ^  1 ) ) or ( 1 and A ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.6773719787597656Diagnostico para o circuito 
+ ( ( ( ( A ^  B ) ^ 1 ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( 1 and ( A ^  B ) ) or ( B and A ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.921614646911621Diagnostico para o circuito 
+ ( ( ( ( 1 ^  1 ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( 1 ^  1 ) ) or ( 1 and 1 ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.7492287158966064Diagnostico para o circuito 
+ ( ( ( ( 0 ^  0 ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( 0 ^  0 ) ) or ( 0 and 0 ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.8353426456451416Diagnostico para o circuito 
+ ( ( ( ( 0 ^  1 ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( 0 ^  1 ) ) or ( 1 and 0 ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.6027569770812988Diagnostico para o circuito 
+ ( ( ( ( 0 ^  1 ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( 0 ^  1 ) ) or ( 1 and 0 ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.687516450881958Diagnostico para o circuito 
+ ( ( ( ( A ^  B ) ^ C ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( A ^  B ) ) or ( B and A ) ) )
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.7408027648925781Diagnostico para o circuito 
+ ( ( ( ( A ^  B ) ^ C ) ) )
+
+Index(['( ( ( ( 0 ^ B ) ^ C ) ) )', '( ( ( ( 1 ^ B ) ^ C ) ) )',
+       '( ( ( ( A ^ 0 ) ^ C ) ) )', '( ( ( ( A ^ 1 ) ^ C ) ) )'],
+      dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( A ^  B ) ) or ( B and A ) ) )
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 2.0684773921966553Diagnostico para o circuito 
+ ( ( ( ( A ^  0 ) ^ C ) ) )
+
+Index(['( ( ( ( 0 ^ 0 ) ^ C ) ) )', '( ( ( ( 1 ^ 0 ) ^ C ) ) )',
+       '( ( ( ( A ^ 0 ) ^ 0 ) ) )', '( ( ( ( A ^ 0 ) ^ 1 ) ) )'],
+      dtype='object')
+
+Diagnostico para o circuito 
+ ( ( ( C and ( A ^  0 ) ) or ( 0 and A ) ) )
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 1.6321730613708496Diagnostico para o circuito 
+ ( not ( ( not ( 0 and  ( not ( C and  D ) ) ) ) and  ( not ( D and E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 9.717191696166992Diagnostico para o circuito 
+ ( not ( ( not ( 1 and  ( not ( C and  D ) ) ) ) and  ( not ( D and E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 9.923049211502075Diagnostico para o circuito 
+ ( not ( ( not ( 1 and  ( not ( C and  D ) ) ) ) and  ( not ( D and E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 9.806854486465454Diagnostico para o circuito 
+ ( ( not ( 1 and  C ) ) and  ( ( 1 and  C ) or  ( ( D or E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( 1 or  ( not ( 1 and  C ) ) or ( 1 and  C ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 4.657906770706177Diagnostico para o circuito 
+ ( ( not ( 1 and  C ) ) and  ( ( 1 and  C ) or  ( ( D or E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( 0 or  ( not ( 1 and  C ) ) or ( 1 and  C ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 4.3375325202941895Diagnostico para o circuito 
+ ( ( not ( B and  1 ) ) and  ( ( B and  1 ) or  ( ( D or E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( A or  ( not ( B and  1 ) ) or ( B and  1 ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 4.278712272644043Diagnostico para o circuito 
+ ( ( not ( B and  1 ) ) and  ( ( B and  1 ) or  ( ( D or E ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( A or  ( not ( B and  1 ) ) or ( B and  1 ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 4.735129356384277Diagnostico para o circuito 
+ ( not ( ( not ( B and  ( not ( 1 and  D ) ) ) ) and  ( not ( ( not ( 1 and  D ) ) and  E ) )  ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( A and  1 ) ) and  ( not ( B and  ( not ( 1 and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 4.59568190574646Diagnostico para o circuito 
+ ( not ( ( not ( B and  ( not ( 1 and  D ) ) ) ) and  ( not ( ( not ( 1 and  D ) ) and  E ) )  ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( A and  1 ) ) and  ( not ( B and  ( not ( 1 and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 4.819252967834473Diagnostico para o circuito 
+ ( not ( ( not ( ( ( not ( B and  1 ) ) and  ( ( B and  1 ) or  ( ( D or E ) ) ) ) and  ( not ( 1 and  D ) ) ) ) and ( not ( ( not ( ( not ( B and  ( not ( 1 and  D ) ) ) ) and  ( not ( ( not ( 1 and  D ) ) and  E ) )  ) ) and ( ( ( 1 and ( A ^  B ) ) or ( B and A ) ) ) ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( 1 and  D ) ) or  ( not ( ( not ( 1 and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 12.151822566986084Diagnostico para o circuito 
+ ( not ( ( not ( ( ( not ( B and  1 ) ) and  ( ( B and  1 ) or  ( ( D or E ) ) ) ) and  ( not ( 1 and  D ) ) ) ) and ( not ( ( not ( ( not ( B and  ( not ( 1 and  D ) ) ) ) and  ( not ( ( not ( 1 and  D ) ) and  E ) )  ) ) and ( ( ( 1 and ( A ^  B ) ) or ( B and A ) ) ) ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( 1 and  D ) ) or  ( not ( ( not ( 1 and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 12.126278638839722Diagnostico para o circuito 
+ ( not ( ( not ( ( ( not ( 1 and  C ) ) and  ( ( 1 and  C ) or  ( ( D or E ) ) ) ) and  ( not ( C and  D ) ) ) ) and ( not ( ( not ( ( not ( 1 and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) and ( ( ( C and ( 1 ^  1 ) ) or ( 1 and 1 ) ) ) ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 11.707366228103638Diagnostico para o circuito 
+ ( not ( ( not ( ( ( not ( 1 and  C ) ) and  ( ( 1 and  C ) or  ( ( D or E ) ) ) ) and  ( not ( C and  D ) ) ) ) and ( not ( ( not ( ( not ( 1 and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) and ( ( ( C and ( 1 ^  1 ) ) or ( 1 and 1 ) ) ) ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 15.362181663513184Diagnostico para o circuito 
+ ( not ( ( not ( ( ( not ( 1 and  C ) ) and  ( ( 1 and  C ) or  ( ( D or E ) ) ) ) and  ( not ( C and  D ) ) ) ) and ( not ( ( not ( ( not ( 1 and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) and ( ( ( C and ( 1 ^  1 ) ) or ( 1 and 1 ) ) ) ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 12.768316507339478Diagnostico para o circuito 
+ ( not ( ( not ( ( ( not ( 1 and  C ) ) and  ( ( 1 and  C ) or  ( ( D or E ) ) ) ) and  ( not ( C and  D ) ) ) ) and ( not ( ( not ( ( not ( 1 and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) and ( ( ( C and ( A ^  1 ) ) or ( 1 and A ) ) ) ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 11.833524703979492Diagnostico para o circuito 
+ ( not ( ( not ( ( ( not ( 1 and  C ) ) and  ( ( 1 and  C ) or  ( ( D or E ) ) ) ) and  ( not ( C and  D ) ) ) ) and ( not ( ( not ( ( not ( 1 and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) and ( ( ( C and ( A ^  1 ) ) or ( 1 and A ) ) ) ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 11.61655592918396Diagnostico para o circuito 
+ ( not ( ( not ( ( ( not ( 0 and  C ) ) and  ( ( 0 and  C ) or  ( ( D or E ) ) ) ) and  ( not ( C and  D ) ) ) ) and ( not ( ( not ( ( not ( 0 and  ( not ( C and  D ) ) ) ) and  ( not ( ( not ( C and  D ) ) and  E ) )  ) ) and ( ( ( C and ( A ^  0 ) ) or ( 0 and A ) ) ) ) ) ) )
+
+Index([], dtype='object')
+
+Diagnostico para o circuito 
+ ( not ( ( not ( C and  D ) ) or  ( not ( ( not ( C and  D ) ) ) ) ) ) 
+
+
+
+Index([], dtype='object')
+
+Tempo de Execução do programa: 12.636248111724854
